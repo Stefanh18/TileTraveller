@@ -61,7 +61,7 @@ while victory_boolean == False:
     if chose in options:
        x, y = move(chose,x,y) 
     else:
-        print("Not a valid direction_pos!")
+        print("Not a valid direction!")
         continue
 
     if x == 3 and y == 1:

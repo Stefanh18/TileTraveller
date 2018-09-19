@@ -16,7 +16,7 @@ x,y = 1,1
 victory = False
 options = "N"
 
-print("y can travel: (N)orth.")
+print("You can travel: (N)orth.")
 while victory == False:
     chose = input("Direction: ")
     chose = chose.upper()
@@ -64,4 +64,4 @@ while victory == False:
         elif x == 3 and y == 3:
             options = "SW"
             string = "(S)outh or (W)est."
-        print("y can travel:", string)
+        print("You can travel:", string)
